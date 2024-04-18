@@ -1,0 +1,30 @@
+#categories{
+    background-color: rgba(221,221,221,.05);
+    display: flex;
+    column-gap: 1rem;
+    width: 100%;
+}
+h4,h5,img{
+    margin: 0;
+    padding: 0;
+}
+#categories h4{
+    font-size: 1.25em;
+    margin-bottom: .1em;
+    font-weight: 700;
+
+}
+#categories h5{
+    font-size: 1.125em;
+    font-weight: 400;
+
+}
+
+@media screen and (max-width: 600px) {
+    #categories{
+        align-items: center;
+    }
+    #categories h5{
+      display:none;
+    }
+}
