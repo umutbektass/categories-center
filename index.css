@@ -1,6 +1,12 @@
 #categories{
     background-color: rgba(221,221,221,.05);
+    display: -webkit-flex; /* Safari */
+    display: -moz-flex; /* Firefox */
+    display: -ms-flex; /* IE */
+    display: -o-flex; /* Opera */
     display: flex;
+    -webkit-column-gap: 1rem;
+    -moz-column-gap: 1rem;
     column-gap: 1rem;
     width: 100%;
 }
@@ -22,6 +28,7 @@ h4,h5,img{
 
 @media screen and (max-width: 600px) {
     #categories{
+        -webkit-align-items: center; /* Safari */
         align-items: center;
     }
     #categories h5{
